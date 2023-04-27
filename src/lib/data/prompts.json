@@ -1,0 +1,133 @@
+[
+    {
+        "title": "Lego Character",
+        "image": "https://pbs.twimg.com/media/FtDOUmsXsAAksUp?format=jpg&name=medium",
+        "prompt": "chewbacca, frontal view, centered image, minifigure, full body length character, a high-res digital design, simple iconic design, smooth edges, sharp lines, classic minifigure expression, neutral expression, customizable, wide range of colors and accessories, avatar, profile picture",
+        "params": {},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1644040914619301888"
+    },
+    {
+        "title": "Stock Advertising Photography",
+        "image": "https://pbs.twimg.com/media/Fs7XGFhXsAAO1RR?format=jpg&name=medium",
+        "prompt": "a 37-years-old woman holding up a blank whiteboard on isolated red color background, vibrant, eye-catching, playfulness and fun",
+        "params": {
+            "ar": "4:3",
+            "v": "5"
+        },
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1643487418987732992"
+    },
+    {
+        "title": "Cute Animals",
+        "image": "https://pbs.twimg.com/media/Fs1PDy5XoAEII35?format=jpg&name=medium",
+        "prompt": "super cute little bunny rendered in the style of pixar cartoon, full body, shiny and fluffy, bright big eyes, fluffy tail, sweet smile, energetic and playful, exaggerated facial expression, Delicate and exquisite, Fairytale, incredibly high detail, bright colors, natural light, solid color background, octane rendering, very popular at art stations, gorgeous, ultra wide angle",
+        "params": {},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1643056429757083650"
+    },
+    {
+        "title": "Orc Selfie",
+        "image": "https://pbs.twimg.com/media/FsjDw3maAAActJD?format=jpg&name=medium",
+        "prompt": "Young hikers happily taking a selfie with an orc on a mountain, Low ISO, EOS 5D Mark IV",
+        "params": {"v": "5"},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/javilopen/status/1641777315817594882"
+    },
+    {
+        "title": "Legionary Selfie",
+        "image": "https://pbs.twimg.com/media/FsjD0ZNaEAAMNnA?format=jpg&name=large",
+        "prompt": "Roman Legionary, background is Battle of Pharsalus, Go Pro selfie perspective, realistic, 8k",
+        "params": {"ar": "2:3"},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/javilopen/status/1641777377494851584"
+    },
+    {
+        "title": "Startup Site",
+        "image": "https://pbs.twimg.com/media/FsuYK6IXgAMHBuq?format=jpg&name=medium",
+        "prompt": "beautiful modern website landing page design for a game development company, web ui design, website design, UI UX website, website template, landing page, featured, top website, clean design",
+        "params": {},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1642573929251307523"
+    },
+    {
+        "title": "Origami",
+        "image": "https://pbs.twimg.com/media/FswkFmdXoAASuxy?format=jpg&name=medium",
+        "prompt": "origami adorable orange rabbit, skyrim, kawaii, paper craft, cinematic, white background, high detail, HD, ultra detailed",
+        "params": {},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1642727997403717632"
+    },
+    {
+        "title": "Lighting",
+        "image": "https://pbs.twimg.com/media/FsfRxcdWYAE919w?format=jpg&name=4096x4096",
+        "prompt": "\u2192 Natural Lighting\n\"Sunlight\" - Common source of lighting for outdoor images.\n\n\"Moonlight\" - Natural lighting that creates a soft/ethereal effect.\n\n\"Firelight\" or \"Candlelight\" - Warm and cozy light source that helps create rustic and romantic effects for indoors.\n\n\"Cloudy Skies\" or \"Overcast\" - Soft and diffused natural light for portrait photography.\n\n\"Reflections\" - Can provide artistic shimmering and dreamy effect when paired with other lighting.\n\n\u2192 Ambient Lighting\n\"Overhead\" - Light fixtures like ceiling lights or chandeliers for lighting indoor scenes.\n\n\"Wall Sconces\" - Adds a decorative element to a room while providing soft, indirect lighting effect.\n\n\"Table Lamps\" - May provide warm and cozy effect OR bright and harsh lighting.\n\n\"Floor Lamps\" - Helps provide warm and cozy effect, but also lights the corners of the scene.\n\n\"Natural Light\" - \"Windows\" or \"Skylights\" can provide consistent lighting throughout the scene.\n\n\u2192 Artificial & Directional Lighting\n\"Studio Lights\" - Powerful/controlled light source best for portrait, product, and fashion.\n\n\"Strobe Lights\" - Flash photography with bright light to illuminate the subject.\n\n\"Ring Lights\" - Circular light source for portrait generations to provide a flattering and even lighting effect.\n\n\"LED Lights\" - Can provide a range of color temperatures.\n\n\"Butterfly Lighting\" - Light placed directly above and slightly in front of subject to create shadow under the nose.\n\n\"Rembrandt Lighting\" - A triangular-shaped patch of light under one eye creating a dramatic shadowy effect.\n\n\"Split Lighting\" - Light source is at a 90-degree angle to the subject face creating a half-and-half shadow effect.\n\n\"Rim Lighting\" - Light source is placed behind the subject, illuminating the edges of the subject's silhouettes for a dramatic/moody effect.\n\n\"Low-Key Lighting\" - Minimal lighting with only one or two sources for dramatic/moody effect.\n\n\"High-Key Lighting\" - Bright and even lighting to create a light/airy effect.\n\n\"Top Light\" - Creates shadows and highlights emphasizing texture and shape.\n\n\"Side Light\" - A light source that creates strong shadows and highlights emphasizing texture and shape.\n\n\"Backlighting\" - Light source is placed behind the subject to create a bright/glowing halo effect.\n\n\u2192 Hard & Soft Lighting\n\"Direct Sunlight\" - Creates a strong, well-defined shadows on the subject.\n\n\"Spot Lighting\" - Strong beam of light creating shadows and highlights.\n\n\"Halogen Bulbs\" - A strong, harsh, and intense light for commercial and industrial settings.\n\n\"Laser Lighting\" - Use of lasers to create a strong light source for stage production and concert effects.\n\n\"Fresnel Lighting\" - A special lens that focuses the light source for theater and film effects.\n\n\"Hard Fill Lighting\" - A second light source that fills in shadows created by primary light source for commercial and fashion prompts.\n\n\"Window Light\" - Soft lighting used most commonly for indoor portraits.\n\n\"Cloudy Days\" - Natural source of soft lighting.\n\n\"Softbox Lighting\" - Softens the light and creates better distribution across the subject.\n\n\"Umbrella Lighting\" - Reflects and diffuses light creating a soft and even effect.\n\n\"Beauty Dish Lighting\" - A soft and flattering light effect used for portrait photography.\n",
+        "params": {},
+        "tags": ["image", "midjourney"],
+        "source": "https://twitter.com/i/web/status/1641511426828165138"
+    },
+    {
+        "title": "Improve writing with feedback",
+        "image": "",
+        "prompt": "{text}\n\nProofread my writing above. Fix grammar and spelling mistakes. And make suggestions that will improve the clarity of my writing",
+        "params": {},
+        "tags": ["lm", "assistant", "writing"],
+        "source": "https://twitter.com/heykahn/status/1650850029979189249"
+    },
+    {
+        "title": "Use 80/20 to learn faster",
+        "image": "",
+        "prompt": "I want to learn about {topic}. Identify and share the most important 20% of learnings from this topic that will help me understand 80% of it.",
+        "params": {},
+        "tags": ["lm", "assistant", "learning"],
+        "source": "https://twitter.com/heykahn/status/1650850032676110338"
+    },
+    {
+        "title": "Learn and develop any new skill",
+        "image": "",
+        "prompt": "I want to learn / get better at {skill}. I am a complete beginner. Create a 30 day learning plan that will help a beginner like me learn and improve this skill.",
+        "params": {},
+        "tags": ["lm", "assistant", "learning"],
+        "source": "https://twitter.com/heykahn/status/1650850035318546432"
+    },
+    {
+        "title": "Get short and insight-packed book summaries",
+        "image": "",
+        "prompt": "Summarize the book {book} by the author {author} and give me a list of the most important learnings and insights.",
+        "params": {},
+        "tags": ["lm", "assistant", "learning"],
+        "source": "https://twitter.com/heykahn/status/1650850038015471616"
+    },
+    {
+        "title": "Enhance your problem solving skills",
+        "image": "",
+        "prompt": "Your role is that of a problem solver. Give me a step-by-step guide to solving {problem}.",
+        "params": {},
+        "tags": ["lm", "assistant"],
+        "source": "https://twitter.com/heykahn/status/1650850043317088257"
+    },
+    {
+        "title": "Generate new ideas and overcome writers block",
+        "image": "",
+        "prompt": "I am writing a blog post about {topic}. Give me an outline for this blog post with 10 bullet points. Also give me 5 options for a catchy headline.",
+        "params": {},
+        "tags": ["lm", "assistant", "writing"],
+        "source": "https://twitter.com/heykahn/status/1650850046018215942"
+    },
+    {
+        "title": "Use stories and metaphors to aid your memory",
+        "image": "",
+        "prompt": "I am currently learning about {topic}. Convert the key lessons from this topic into engaging stories and metaphors to aid my memorization.",
+        "params": {},
+        "tags": ["lm", "assistant", "learning"],
+        "source": "https://twitter.com/heykahn/status/1650850051307229185"
+    },
+    {
+        "title": "Strengthen your learning by testing yourself",
+        "image": "",
+        "prompt": "I am currently learning about {topic}. Ask me a series of questions that will test my knowledge. Identify knowledge gaps in my answers and give me better answers to fill those gaps.",
+        "params": {},
+        "tags": ["lm", "assistant", "learning"],
+        "source": "https://twitter.com/heykahn/status/1650850053932871680"
+    }
+]

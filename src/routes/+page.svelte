@@ -5,7 +5,7 @@
 
 	import CardContainer from '$lib/cards/CardContainer.svelte';
 	import Card from '$lib/cards/Card.svelte';
-
+	
 	let result = prompts;
 	$: {
 		let query = $page.url.searchParams.get('q');

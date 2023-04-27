@@ -18,7 +18,10 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: false
-		})
+		}),
+		paths: {
+            base: '/roseta',
+        }
 	}
 };
 

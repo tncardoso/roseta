@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { base } from '$app/paths';
+
   import Label from '$lib/cards/Label.svelte';
 
   export let id;
@@ -21,7 +23,7 @@
     <div class="bg-white rounded-lg shadow-lg">
       
       {#if image != ""}
-      <a href="/prompt/{id}">
+      <a href="{base}/prompt/{id}">
       <img src={image} alt="{prompt}" class="w-full rounded-t-lg">
       </a>
       {/if}

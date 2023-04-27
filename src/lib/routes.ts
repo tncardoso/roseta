@@ -1,4 +1,5 @@
 import { goto } from '$app/navigation';
+import { base } from '$app/paths';
 
 export function search(query) {
     console.log('sear');
@@ -11,9 +12,9 @@ export function search(query) {
 
     let gparams = { keepFocus: true }
     if (query) {
-      goto(`/?q=${query}`, gparams);
+      goto(`${base}/?q=${query}`, gparams);
     } else {
-      goto(`/?q=*`, gparams);
+      goto(`${base}/?q=*`, gparams);
     }
   }
 

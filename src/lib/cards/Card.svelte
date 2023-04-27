@@ -29,7 +29,7 @@
       {/if}
       
       <div class="p-4">
-        <a href="/prompt/{id}">
+        <a href="{base}/prompt/{id}">
         <h2 class="text-lg font-semibold text-gray-800 mb-2">{title}</h2>
         <p class="text-gray-700 font-mono text-xs">
           {truncate(prompt)}

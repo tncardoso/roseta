@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lunr": "^2.3.9"
+		"lunr": "^2.3.9",
+		"nunjucks": "^3.2.4"
 	}
 }

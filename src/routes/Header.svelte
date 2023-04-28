@@ -1,6 +1,5 @@
 <script>
-	import { page } from '$app/stores';
-  import { goto } from '$app/navigation'
+	import { base } from '$app/paths';
   import { browser } from '$app/environment';
 	import logo from '$lib/images/roseta.svg';
   import {search} from '$lib/routes';
@@ -26,10 +25,10 @@
     <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="flex items-center px-2 lg:px-0">
-          <a class="flex-shrink-0" href="#">
+          <button class="flex-shrink-0" on:click={() => search(null)}>
             <img class="block lg:hidden h-12 w-16" src={logo} alt="Logo">
             <img class="hidden lg:block h-12 w-auto" src={logo} alt="Logo">
-          </a>
+          </button>
           <div class="hidden lg:block lg:ml-2">
             <div class="flex">
               <!--<a on:click|preventDefault={() => search('')} href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-800 font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 ">All</a>

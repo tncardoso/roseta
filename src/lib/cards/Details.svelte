@@ -1,7 +1,18 @@
 <script lang="ts">
+  import nunjucks from 'nunjucks';
   import Label from '$lib/cards/Label.svelte';
-
+  
   export let prompt;
+
+  nunjucks.configure({ autoescape: true });
+
+  let processed_prompt = prompt.prompt;
+  let vars = {};
+  prompt.vars.forEach(v => {
+    vars[v] = '{' + v + '}';
+  });
+  $: processed_prompt = nunjucks.renderString(prompt.prompt, vars);
+  
 </script>
   
 <div class="w-full p-20">
@@ -16,8 +27,39 @@
         <div class="p-4">
           <h2 class="text-lg font-semibold text-gray-800 mb-2">{prompt.title}</h2>
           <p class="text-gray-700 font-mono">
-            {@html prompt.prompt.replace(/\n/g, "<br />")}
+            {@html processed_prompt.replace(/\n/g, "<br />")}
           </p>
+
+          {#if Object.keys(prompt.vars).length > 0}
+          <div class="flex justify-center mt-8 mb-2">
+            <div class="overflow-x-auto shadow-md sm:rounded-lg w-4/5">
+                <div class="inline-block min-w-full align-middle">
+                    <div class="overflow-hidden">
+                        <table class="min-w-full divide-y divide-gray-200 table-auto dark:divide-gray-700">
+                            <thead class="bg-gray-100 dark:bg-gray-700">
+                                <tr>
+                                    <th scope="col" class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400">
+                                        Variable
+                                    </th>
+                                    <th scope="col" class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase dark:text-gray-400">
+                                        Value
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                              {#each prompt.vars as v}  
+                                <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-white">{v}</td>
+                                    <td class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap dark:text-white"><input type="text" name={v} bind:value={vars[v]}/></td>
+                                </tr>
+                                {/each}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/if}
           
           {#if Object.keys(prompt.params).length > 0}
         <div class="flex justify-center mt-8 mb-2">
@@ -54,9 +96,11 @@
               <Label tag={tag}></Label>
             {/each}
           </p>
+          {#if prompt.source != ""}
           <p class="pt-4 text-sm text-gray-500">
             source: <a href="{prompt.source}" target="_blank">{prompt.source}</a>
           </p>
+          {/if}
         </div>
       </div>
 </div>

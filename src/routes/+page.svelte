@@ -1,11 +1,19 @@
 <script>
 	import { page } from '$app/stores';
+    import { goto } from "$app/navigation";
 
 	import {prompts, getPrompt, search} from '$lib/data/index.ts';
 
 	import CardContainer from '$lib/cards/CardContainer.svelte';
 	import Card from '$lib/cards/Card.svelte';
-	
+
+    // this is a fix for 404 without rewrite rules
+    let redir = $page.url.searchParams.get('redir');
+    console.log(redir);
+    if (redir) {
+        goto(redir);
+    }
+
 	let result = prompts;
 	$: {
 		let query = $page.url.searchParams.get('q');

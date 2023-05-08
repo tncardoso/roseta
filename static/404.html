@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+    <script type="application/javascript">
+      // replacing rewrite rules in github pages :(
+      let url = window.location.pathname;
+      let new_url = '/roseta/?redir=' + encodeURI(url);
+      console.log('redir');
+      console.log(new_url);
+      window.location = new_url;
+    </script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
     import { goto } from "$app/navigation";
+    import { base } from '$app/paths';
 
 	import {prompts, getPrompt, search} from '$lib/data/index.ts';
 
@@ -10,7 +11,7 @@
     // this is a fix for 404 without rewrite rules
     let redir = $page.url.searchParams.get('redir');
     console.log(redir);
-    if (redir) {
+    if (redir && redir.startsWith(base + '/prompt/')) {
         goto(redir);
     }
 
